@@ -1,0 +1,33 @@
+.more-icon{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.logo{
+    /* position: absolute;
+    top: 15px;
+    left: 15px; */
+    width: 30px;
+}
+.nav-list{
+    width: 100%;
+    background-color: #ebebeb;
+    border-radius: 16px;
+    margin-top: 90px;
+    padding: 20px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.nav-item{
+    list-style: none;
+    padding: 10px 0 10px 10%;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: .2s linear;
+}
+.nav-item:hover{
+    background-color: #ccc;
+}
+.active{
+    border-left: 3px solid orange;
+    background-color: #ccc;
+}
